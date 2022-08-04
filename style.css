@@ -1,0 +1,45 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans&family=DM+Serif+Display:ital@0;1&display=swap');
+
+body{
+    background-color: rgb(99, 99, 99);
+}
+.container{
+    margin-top: 2em;
+    color: rgb(58, 59, 59);
+    background-color: rgb(231, 231, 231);
+    padding: 2em;
+    box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
+}
+.container *:nth-child(1){
+    display: flex;
+    font-size: 3em;
+    width: 800px;
+    font-family: 'DM Serif Display', serif;
+    font-style: italic;
+    text-decoration: underline;
+}
+
+.container *:nth-child(1):focus{
+    text-decoration: none;
+}
+
+.container *:nth-child(2){
+    font-size: 20px;
+    font-family: 'DM Sans', sans-serif;
+    width: 800px;
+    height: 8em;
+    overflow: hidden;
+    height: calc();
+    background-color: rgb(255, 255, 255);
+    min-height: 2em;
+    max-height: 10.5em;
+    resize: vertical;
+    padding: 12px;
+    margin: 0;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
